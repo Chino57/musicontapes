@@ -1,0 +1,4 @@
+AuthName "Page d'administration protégée. Veuillez donner votre login et votre password pour y accéder"
+AuthType Basic
+AuthUserFile "/homepages/34/d732676360/htdocs/Admin/.htpasswd
+Require valid-user

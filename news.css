@@ -1,0 +1,70 @@
+/*Mise en forme esthétique des pages news*/
+#formatnews
+{
+	text-align: center;
+	vertical-align: center;
+	font-family: 'Ranga', cursive;
+	font-size: 25px;
+	
+
+}
+
+.sectionflex {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	z-index: 255;
+
+}
+
+article {
+	margin:auto;
+	background-color: white;
+    box-shadow: -7px -2px 17px 3px black;
+    padding: 45px;
+    margin-top: 35px;
+    margin-bottom: 75px; 
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Lobster' , cursive;
+}
+
+textarea {
+	height:150px;
+	width:250px;
+}
+
+#validcom {
+   background-color: #E83A3A;
+   font-family: 'yellowtail',cursive;
+   border-radius: 7px;
+   color: rgb(241, 165, 23);
+   width: 75px;
+   height: 50px;
+   font-size: 20px;
+
+}
+
+#validcom:hover{
+	background-color:#E396C2;
+	color: rgb(129, 241, 114);
+
+}
+
+#nontransparencecommentaire
+{
+	text-align: center;
+	vertical-align: center;
+	font-family: 'Ranga', cursive;
+	font-size: 17px;
+	
+
+}
+
+.hidcom
+{
+	display: none;
+}
+

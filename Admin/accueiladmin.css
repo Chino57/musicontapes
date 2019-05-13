@@ -1,0 +1,60 @@
+/*Mise en forme esthétique de la page d'accueil de la partie admnistratif du site*/
+.sectionflex 
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Ranga',cursive;
+	text-align: center;
+}
+
+.titrederubrique 
+{
+	font-family:'Lobster', cursive;
+
+}
+
+.groupe 
+{
+	font-size: 25px;
+	z-index: 350;
+	
+}
+
+.lienclique
+{
+	text-decoration: none;
+}
+
+.lienclique:hover 
+{
+	color: firebrick;
+}
+
+.bouton
+{
+	text-decoration: none;
+	background-color:rgb(241, 165, 23);
+	color: rgb(232, 58, 58);
+	padding: 10px;
+	border-radius: 15px;
+	font-size: 25px;
+
+
+}
+
+.bouton:hover 
+{
+	color:rgb(241, 165, 23);
+	background-color: rgb(232, 58, 58);
+
+}
+
+article {
+	z-index: 255;
+	margin:auto;
+	background-color: white;
+    padding: 20px;
+    margin-top: 35px;
+    box-shadow: -7px -2px 17px 3px black;
+}

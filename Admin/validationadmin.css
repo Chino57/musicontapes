@@ -1,0 +1,28 @@
+#texterreur{
+	font-family: 'Ranga',sans-serif;
+	text-align: center;
+	font-size: 25px;
+	z-index: 550;
+
+}
+
+.lienclique 
+{
+	text-decoration: none;
+}
+
+.lienclique:hover 
+{
+	color: firebrick;
+}
+
+article 
+{
+	margin:auto;
+	background-color: white;
+    box-shadow: -7px -2px 17px 3px black;
+    padding: 45px;
+    margin-top: 255px;
+    margin-bottom: 150px;
+    z-index: 550;
+}

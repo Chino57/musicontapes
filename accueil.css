@@ -1,0 +1,98 @@
+#nontransparence 
+{
+	text-align: center;
+	font-family: "Ranga",cursive;
+	font-size: 20px;
+}
+
+#news
+{
+	font-family: "Ranga",cursive;
+	font-size: 20px;
+}
+
+.titrederubrique 
+{
+	font-family:'Lobster', cursive;
+	text-align: center;
+
+}
+
+.background 
+{
+	background : none;
+}
+.flexrubrique 
+{
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+    margin: 15px;
+    margin-top: 25px;
+    background-color: white;
+    z-index: 255;
+    box-shadow: -7px -2px 17px 3px black;
+}
+
+#pochettealbum {
+    width: 150px;
+    height: 150px;
+}
+
+#nontransparence span 
+{
+	visibility: hidden;
+}
+
+#pochettealbum:hover
+{
+	opacity: 0.7;
+	visibility: visible;
+}
+
+#accueilartistes 
+{
+    flex-direction: column;
+    font-family: 'Ranga',cursive;
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+
+#lienartist 
+
+{
+	text-decoration:none;
+}
+
+#lienartist:hover 
+{
+	color: firebrick;
+}
+
+#formatfontnews 
+{
+	text-align: center;
+	font-family: "Ranga",cursive;
+	font-size: 20px;
+}
+
+@media all and (max-width: 1000px)  
+{
+    .sectionflex
+    {
+        flex-direction: column;
+    }
+
+    #accueilartistes
+    {
+    	
+    	text-align: center;
+    	font-size: 30px;
+    
+    }
+
+    #formatfontnews 
+    {
+    	font-size: 30px;
+    }
+}

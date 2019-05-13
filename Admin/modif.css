@@ -1,0 +1,66 @@
+/*Mise en forme esthétique des formulaire de modification*/
+article 
+{
+	margin: auto;
+	background-color: white;
+    box-shadow: -7px -2px 17px 3px black;
+    padding: 45px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+#nontransparence
+{
+	text-align: center;
+	vertical-align: center;
+	font-family: 'Ranga', cursive;
+	font-size: 25px;
+
+
+}
+
+.sectionflex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	z-index: 255;
+
+}
+
+#validform {
+   background-color: #E83A3A;
+   font-family: 'yellowtail',cursive;
+   border-radius: 7px;
+   color: rgb(241, 165, 23);
+   width: 75px;
+   height: 50px;
+   font-size: 20px;
+
+}
+
+#validform:hover{
+	background-color:#E396C2;
+	color: rgb(129, 241, 114);
+
+}
+
+textarea 
+{
+	height:150px;
+	width:250px;
+}
+
+h2 {
+	font-family: "Lobster",cursive;
+	text-align: center;
+}
+
+.lienclique
+{
+	text-decoration: none;
+}
+
+.lienclique:hover 
+{
+	color: firebrick;
+}
